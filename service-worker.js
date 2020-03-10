@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/catz-rolodex/precache-manifest.6934293627ba8660e62c0dc7022ebbca.js"
+  "/catz-rolodex/precache-manifest.f0d6d2663b1e8c012fb61e2b315cd53d.js"
 );
 
 self.addEventListener('message', (event) => {
