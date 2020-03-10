@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/catz-rolodex/static/css/main.4699b52e.chunk.css",
-    "main.js": "/catz-rolodex/static/js/main.67da80f4.chunk.js",
-    "main.js.map": "/catz-rolodex/static/js/main.67da80f4.chunk.js.map",
+    "main.css": "/catz-rolodex/static/css/main.24e7778a.chunk.css",
+    "main.js": "/catz-rolodex/static/js/main.6c0e34aa.chunk.js",
+    "main.js.map": "/catz-rolodex/static/js/main.6c0e34aa.chunk.js.map",
     "runtime-main.js": "/catz-rolodex/static/js/runtime-main.16fbf302.js",
     "runtime-main.js.map": "/catz-rolodex/static/js/runtime-main.16fbf302.js.map",
     "static/js/2.cc8af93d.chunk.js": "/catz-rolodex/static/js/2.cc8af93d.chunk.js",
     "static/js/2.cc8af93d.chunk.js.map": "/catz-rolodex/static/js/2.cc8af93d.chunk.js.map",
     "index.html": "/catz-rolodex/index.html",
-    "precache-manifest.fc70c9f207448de1bf5f43eeaad5fd25.js": "/catz-rolodex/precache-manifest.fc70c9f207448de1bf5f43eeaad5fd25.js",
+    "precache-manifest.d8a161b153cd968109d24f93572e208b.js": "/catz-rolodex/precache-manifest.d8a161b153cd968109d24f93572e208b.js",
     "service-worker.js": "/catz-rolodex/service-worker.js",
-    "static/css/main.4699b52e.chunk.css.map": "/catz-rolodex/static/css/main.4699b52e.chunk.css.map",
+    "static/css/main.24e7778a.chunk.css.map": "/catz-rolodex/static/css/main.24e7778a.chunk.css.map",
     "static/js/2.cc8af93d.chunk.js.LICENSE.txt": "/catz-rolodex/static/js/2.cc8af93d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.16fbf302.js",
     "static/js/2.cc8af93d.chunk.js",
-    "static/css/main.4699b52e.chunk.css",
-    "static/js/main.67da80f4.chunk.js"
+    "static/css/main.24e7778a.chunk.css",
+    "static/js/main.6c0e34aa.chunk.js"
   ]
 }
