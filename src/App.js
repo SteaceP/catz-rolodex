@@ -14,11 +14,16 @@ class App extends Component {
 
     // this.handleChange = this.handleChange.bind(this);
   }
-
   componentDidMount() {
-    fetch('https://jsonplaceholder.typicode.com/users')
+    fetch(
+      `https://cors-anywhere.herokuapp.com/https://jsonplaceholder.typicode.com/users`,
+      { headers: { 'Access-Control-Allow-Origin': '*' } }
+    )
       .then(response => response.json())
-      .then(users => this.setState({ monsters: users }));
+      .then(users => {
+        this.setState({ monsters: users });
+      })
+      .catch(error => this.setState({ error }));
   }
 
   // Don't need to bind it if we use the arrow function
