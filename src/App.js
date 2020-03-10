@@ -15,10 +15,12 @@ class App extends Component {
     // this.handleChange = this.handleChange.bind(this);
   }
   componentDidMount() {
-    fetch(
-      `https://cors-anywhere.herokuapp.com/https://jsonplaceholder.typicode.com/users`,
-      { headers: { 'Access-Control-Allow-Origin': '*' } }
-    )
+    fetch(`https://jsonplaceholder.typicode.com/users`, {
+      headers: {
+        'Access-Control-Allow-Origin': '*',
+        'Content-type': 'application/json; charset=UTF-8',
+      },
+    })
       .then(response => response.json())
       .then(users => {
         this.setState({ monsters: users });
