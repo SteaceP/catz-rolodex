@@ -8,22 +8,17 @@ class App extends Component {
     super();
     // Fucking States
     this.state = {
-      monsters: [],
+      cats: [],
       searchField: '',
     };
-
-    // this.handleChange = this.handleChange.bind(this);
   }
+
+  // Added Headers for Github Pages to work
   componentDidMount() {
-    fetch(`https://jsonplaceholder.typicode.com/users`, {
-      headers: {
-        'Access-Control-Allow-Origin': '*',
-        'Content-type': 'application/json; charset=UTF-8',
-      },
-    })
+    fetch(`https://jsonplaceholder.typicode.com/users`)
       .then(response => response.json())
       .then(users => {
-        this.setState({ monsters: users });
+        this.setState({ cats: users });
       })
       .catch(error => this.setState({ error }));
   }
@@ -34,9 +29,10 @@ class App extends Component {
   };
 
   render() {
-    const { monsters, searchField } = this.state; // Destructuring
-    // Filter the monsters with what we type in the searchBox
-    const filteredMonsters = monsters.filter(monster =>
+    const { cats, searchField } = this.state; // Destructuring
+
+    // Filter the cats with what we type in the searchBox
+    const filteredcats = cats.filter(monster =>
       monster.name.toLowerCase().includes(searchField.toLowerCase())
     );
 
@@ -47,7 +43,7 @@ class App extends Component {
           placeholder='Search Weird Catz'
           handleChange={this.handleChange}
         />
-        <CardList monsters={filteredMonsters}></CardList>
+        <CardList cats={filteredcats}></CardList>
       </div>
     );
   }
