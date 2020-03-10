@@ -16,7 +16,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch('http://cors.io/?https://jsonplaceholder.typicode.com/users')
+    fetch('https://cors.io/?https://jsonplaceholder.typicode.com/users')
       .then(response => response.json())
       .then(users => this.setState({ monsters: users }));
   }
