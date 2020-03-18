@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import { CardList } from './components/card-list/card-list.component';
-import { SearchBox } from './components/search-box/search-box.component';
-import './App.css';
+import React, { Component } from "react";
+import { CardList } from "./components/card-list/card-list.component";
+import { SearchBox } from "./components/search-box/search-box.component";
+import "./App.css";
 
 class App extends Component {
   constructor() {
@@ -9,11 +9,10 @@ class App extends Component {
     // Fucking States
     this.state = {
       cats: [],
-      searchField: '',
+      searchField: "",
     };
   }
 
-  // Added Headers for Github Pages to work
   componentDidMount() {
     fetch(`https://jsonplaceholder.typicode.com/users`)
       .then(response => response.json())
