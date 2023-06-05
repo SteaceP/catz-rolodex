@@ -1,21 +1,17 @@
 {
-  "name": "monsters-rolodex",
+  "name": "cats-rolodex",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://xsteacy.github.io/catz-rolodex",
+  "homepage": "https://steacep.github.io/catz-rolodex",
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
     "ghpages": "0.0.10",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
-    "react-scripts": "3.4.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build"
@@ -30,13 +26,13 @@
       "not op_mini all"
     ],
     "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
+      "last 2 chrome version",
+      "last 2 firefox version",
+      "last 2 safari version"
     ]
   },
   "main": "index.js",
-  "repository": "git@github.com:xsteacy/catz-rolodex.git",
+  "repository": "git@github.com:steacep/catz-rolodex.git",
   "author": "Steacy Paquette <steacy@live.ca>",
   "license": "MIT"
 }
